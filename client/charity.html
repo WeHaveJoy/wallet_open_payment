@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Charity Dashboard</h1>
+
+    <h2>Donations Received:</h2>
+    <ul id="donations"></ul>
+
+    <h2>Notify Donors:</h2>
+    <form id="notifyForm">
+        <label for="message">Message:</label>
+        <input type="text" id="message" required><br><br>
+        <label for="donorId">Donor ID:</label>
+        <input type="text" id="donorId" required><br><br>
+        <button type="submit">Notify Donor</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
